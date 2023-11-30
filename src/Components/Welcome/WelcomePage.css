@@ -1,0 +1,38 @@
+.form-container{
+    /* border: 1px solid red; */
+    height: 50vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+}
+.error-container{
+    /* border: 1px solid black; */
+    justify-content:center;
+    align-items:start;
+}
+.form-container input{
+    width: 15rem;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-radius: 20px;
+    padding: .7rem;
+    margin-bottom: 1rem;
+    /* background-color: #385273; */
+}
+.form-container input::placeholder{
+    text-align: center;
+}
+.form-container button {
+    border-radius: 20px;
+    width: 7rem;
+    height: 2rem;
+    background-color: #385273;
+    color: #fff;
+}
+
+.error-container p{
+    margin-top: 1rem;
+}
