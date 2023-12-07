@@ -30,7 +30,7 @@ const WelcomePage = () => {
                 Your browser does not support the video tag.
             </video> */}
             <form onSubmit={nameHandler} className='form-container'>
-                <input type='text' placeholder='Enter here the Name' value={wisher} onChange={(e) => setWisher(e.target.value)} />
+                <input type='text' placeholder='Name' value={wisher} onChange={(e) => setWisher(e.target.value)} />
                 <button type='submit'>Submit</button>
             </form>
             <section className='error-container'>
